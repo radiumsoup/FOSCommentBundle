@@ -3,6 +3,7 @@ Step 3: Import FOSCommentBundle routing
 Import the bundle routing:
 
 ``` yaml
+// app/config/routing.yml
 fos_comment_api:
     type: rest
     resource: "@FOSCommentBundle/Resources/config/routing.yml"
